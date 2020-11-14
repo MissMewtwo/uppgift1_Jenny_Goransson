@@ -2,27 +2,27 @@ import java.util.HashSet;
 import java.util.Scanner;
 
 public class TicTacToe {
-	
+
 	static HashSet<Integer> xSet = new HashSet<Integer>();
 	static HashSet<Integer> oSet = new HashSet<Integer>();
-
+//en kommentar
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		System.out.println("Välj spelläge: \n1. Multiplayer - Play with a friend \n2. Singleplayer - Play alone against the computer");
 		int userChoice = in.nextInt();;
 		int max = 2;
 		int min = 1;
-		
+
 		while (userChoice > max || userChoice < min) {
 			System.out.println("Är du dum eller, jag sa 1 eller 2!");
 			userChoice = in.nextInt();
 		}
-		char[][] gameBoard = { 
-			{ ' ', '|', ' ', '|', ' ' }, 
+		char[][] gameBoard = {
+			{ ' ', '|', ' ', '|', ' ' },
 			{ '-', '|', '-', '|', '-' },
 			{ ' ', '|', ' ', '|', ' ' },
-			{ '-', '|', '-', '|', '-' }, 
-			{ ' ', '|', ' ', '|', ' ' } 
+			{ '-', '|', '-', '|', '-' },
+			{ ' ', '|', ' ', '|', ' ' }
 		};
 
 		printBoard(gameBoard);
