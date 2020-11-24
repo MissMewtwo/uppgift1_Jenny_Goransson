@@ -5,7 +5,7 @@ public class TicTacToe {
 
 	static HashSet<Integer> xSet = new HashSet<Integer>();
 	static HashSet<Integer> oSet = new HashSet<Integer>();
-//en kommentar
+
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		System.out.println("Välj spelläge: \n1. Multiplayer - Play with a friend \n2. Singleplayer - Play alone against the computer");
