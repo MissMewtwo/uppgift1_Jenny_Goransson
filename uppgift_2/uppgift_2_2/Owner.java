@@ -2,12 +2,17 @@ package uppgift_2_2;
 
 public class Owner {
 	String name;
-	int id;
+	Cat cat;
 	
 	
-	public Owner (String name, int id) {
+	public Owner (String name) {
 		this.name = name;
-		this.id = id;
+		
+		
+	}
+	
+	public void setCat(Cat cat) {
+		this.cat = cat;
 	}
 	
 

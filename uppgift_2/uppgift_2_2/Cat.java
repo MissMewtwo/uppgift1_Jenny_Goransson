@@ -3,13 +3,18 @@ package uppgift_2_2;
 public class Cat {
 	String name;
 	String race;
-	int id;
+	Owner owner;
 	
-	public Cat (String name, String race, int id) {
+	
+	public Cat (String name, String race) {
 		this.name = name;
 		this.race = race;
-		this.id = id;
 		
+		
+	}
+	
+	public void setOwner (Owner matte) {
+		this.owner = matte;
 	}
 
 }
