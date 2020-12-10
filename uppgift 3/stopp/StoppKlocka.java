@@ -24,6 +24,7 @@ public class StoppKlocka extends Application {
 	
 	Button startButton;
 	Button resetButton;
+	Button clearButton;
 	Text time;
 	Circle circle;
 	Circle circle2;
@@ -43,6 +44,7 @@ public class StoppKlocka extends Application {
 		
 		startButton = new Button("Start");
 		resetButton = new Button("Reset");
+		clearButton = new Button("Clar");
 		time = new Text("00:00:00:000");
 		circle = new Circle();
 		circle2 = new Circle();
@@ -91,6 +93,9 @@ public class StoppKlocka extends Application {
 		resetButton.setStyle("-fx-background-radius: 5em;" + "-fx-min-width: 50px;" +
 				"-fx-min-height: 50px;" + "-fx-max-width: 50px;" + "-fx-max-height: 50px;" +
 				"-fx-background-color: #404040;" + "-fx-text-fill: white;");
+		clearButton.setStyle("-fx-background-radius: 5em;" + "-fx-min-width: 50px;" +
+				"-fx-min-height: 50px;" + "-fx-max-width: 50px;" + "-fx-max-height: 50px;" +
+				"-fx-background-color: #404040;" + "-fx-text-fill: white;");
 		tableView.setStyle("-fx-min-width: 200px;" + "-fx-min-height: 200px;" + "-fx-max-width: 200px;" + 
 				"-fx-max-height: 200px;" + "-fx-background-color: #000000");
 		
@@ -109,6 +114,7 @@ public class StoppKlocka extends Application {
 		root.add(circle2, 1, 1);
 		root.add(startButton, 1, 1);
 		root.add(resetButton, 0, 1);
+		root.add(clearButton, 0, 6);
 		root.add(time, 0, 0, 2, 1);
 		root.add(tableView, 0, 2, 2, 4);
 		
@@ -130,6 +136,7 @@ public class StoppKlocka extends Application {
 		
 		startButton.setOnAction(e -> startCode(e));
 		resetButton.setOnAction(e -> resetCode(e));
+		clearButton.setOnAction(e -> clearCode(e));
 		
 	}
 	
@@ -175,6 +182,10 @@ public class StoppKlocka extends Application {
 		hours = 0;
 		time.setText("00:00:00:000");
 		
+	}
+	
+	public void clearCode(ActionEvent e) {
+		tableView.getItems().clear();
 	}
 	
 	void update(Text time) {
