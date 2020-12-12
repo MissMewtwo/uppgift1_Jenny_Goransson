@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="14.0.2" class="java.beans.XMLDecoder">
+ <array class="java.lang.Object" length="1">
+  <void index="0">
+   <object class="persons.Persons">
+    <void property="firstName">
+     <string>Lina</string>
+    </void>
+    <void property="gender">
+     <string>Female</string>
+    </void>
+    <void property="lastName">
+     <string>Nilsson</string>
+    </void>
+   </object>
+  </void>
+ </array>
+</java>

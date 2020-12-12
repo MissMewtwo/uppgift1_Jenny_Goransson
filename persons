@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="14.0.2" class="java.beans.XMLDecoder">
+ <array class="java.lang.Object" length="2">
+  <void index="0">
+   <object class="persons.Persons">
+    <void property="firstName">
+     <string>Helena</string>
+    </void>
+    <void property="gender">
+     <string>Unknown</string>
+    </void>
+    <void property="lastName">
+     <string>Karlsson</string>
+    </void>
+   </object>
+  </void>
+  <void index="1">
+   <object class="persons.Persons">
+    <void property="firstName">
+     <string>Anna </string>
+    </void>
+    <void property="gender">
+     <string>Female</string>
+    </void>
+    <void property="lastName">
+     <string>Nilsson</string>
+    </void>
+   </object>
+  </void>
+ </array>
+</java>
