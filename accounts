@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="14.0.2" class="java.beans.XMLDecoder">
+ <array class="java.lang.Object" length="2">
+  <void index="0">
+   <object class="atm.Accounts">
+    <void property="accountNumber">
+     <int>10171871</int>
+    </void>
+    <void property="adress">
+     <string>Hemma</string>
+    </void>
+    <void property="checkingBalance">
+     <double>20000.0</double>
+    </void>
+    <void property="name">
+     <string>Helge Olsson</string>
+    </void>
+    <void property="pinNumber">
+     <int>987</int>
+    </void>
+    <void property="user">
+     <string>Helge</string>
+    </void>
+   </object>
+  </void>
+  <void index="1">
+   <object class="atm.Accounts">
+    <void property="accountNumber">
+     <int>18145509</int>
+    </void>
+    <void property="adress">
+     <string>Månen</string>
+    </void>
+    <void property="checkingBalance">
+     <double>100.0</double>
+    </void>
+    <void property="name">
+     <string>Linus Nilsson</string>
+    </void>
+    <void property="pinNumber">
+     <int>987</int>
+    </void>
+    <void property="user">
+     <string>LiNi</string>
+    </void>
+   </object>
+  </void>
+ </array>
+</java>

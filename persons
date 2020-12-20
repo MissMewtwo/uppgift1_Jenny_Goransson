@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <java version="14.0.2" class="java.beans.XMLDecoder">
- <array class="java.lang.Object" length="2">
+ <array class="java.lang.Object" length="3">
   <void index="0">
    <object class="persons.Persons">
     <void property="firstName">
@@ -24,6 +24,19 @@
     </void>
     <void property="lastName">
      <string>Nilsson</string>
+    </void>
+   </object>
+  </void>
+  <void index="2">
+   <object class="persons.Persons">
+    <void property="firstName">
+     <string>Kajsa</string>
+    </void>
+    <void property="gender">
+     <string>Unknown</string>
+    </void>
+    <void property="lastName">
+     <string>Pesson</string>
     </void>
    </object>
   </void>
