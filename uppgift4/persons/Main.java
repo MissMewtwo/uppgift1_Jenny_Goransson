@@ -70,7 +70,7 @@ public class Main extends Application {
 		
 		table.setEditable(true);
 		
-		
+		//Jag har ingen update knapp, utan man redigerar uppgifter i tabellen genom att dubbelklicka på dom
 		TableColumn firstName = new TableColumn("First Name");
 		firstName.setMinWidth(100);
 		firstName.setCellValueFactory(

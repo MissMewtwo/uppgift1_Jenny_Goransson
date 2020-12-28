@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <java version="14.0.2" class="java.beans.XMLDecoder">
- <array class="java.lang.Object" length="2">
+ <array class="java.lang.Object" length="4">
   <void index="0">
    <object class="atm.Accounts">
     <void property="accountNumber">
@@ -42,6 +42,50 @@
     </void>
     <void property="user">
      <string>LiNi</string>
+    </void>
+   </object>
+  </void>
+  <void index="2">
+   <object class="atm.Accounts">
+    <void property="accountNumber">
+     <int>22432851</int>
+    </void>
+    <void property="adress">
+     <string>Nära hemma</string>
+    </void>
+    <void property="checkingBalance">
+     <double>20000.0</double>
+    </void>
+    <void property="name">
+     <string>Kicki</string>
+    </void>
+    <void property="pinNumber">
+     <int>1234</int>
+    </void>
+    <void property="user">
+     <string>Kicki</string>
+    </void>
+   </object>
+  </void>
+  <void index="3">
+   <object class="atm.Accounts">
+    <void property="accountNumber">
+     <int>31561691</int>
+    </void>
+    <void property="adress">
+     <string>Hemma</string>
+    </void>
+    <void property="checkingBalance">
+     <double>1000.0</double>
+    </void>
+    <void property="name">
+     <string>Leif</string>
+    </void>
+    <void property="pinNumber">
+     <int>8848</int>
+    </void>
+    <void property="user">
+     <string>Leif</string>
     </void>
    </object>
   </void>
